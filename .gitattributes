@@ -1,0 +1,6 @@
+# Normalize line endings: LF in the repo and on checkout, on every platform.
+# The shipped zip is LF, so a clone must be LF too or the two disagree.
+* text=auto eol=lf
+
+# Binary assets: never touch line endings, never diff as text.
+*.png binary
