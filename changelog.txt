@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.9.0
+Version: 0.9.1
 Date: 2026-09-07
   Features:
     - Tile-locked expansion. The map generates normally, but you start confined to a small
@@ -11,7 +11,7 @@ Date: 2026-09-07
       box-select claims chunks in a single drag.
     - A draggable widget collects every Territorio action: expansion tokens, banked artillery
       strikes, the missile salvo, and surveillance scans.
-    - Chunk Refund, in three tiers. Sell a chunk back for its token; the tier decides how
+    - Chunk Refund, in three tiers. Sell a chunk back for its token. The tier decides how
       much of what you built on it survives the sale.
     - Resource Synthesis, in five tiers. Place new ore patches inside your own territory when
       the map did not give you the ore you need. Richness and field size grow with research.
@@ -24,7 +24,7 @@ Date: 2026-09-07
     - The Missile Battery, one per surface, firing an eight-missile salvo at a spot you
       designate. It loads vanilla rockets straight off your bus.
     - Territorial Artillery Strike, in three tiers. Killing enemies banks charges from the
-      first minute of the game; the research is what lets you spend them on an off-map
+      first minute of the game. The research is what lets you spend them on an off-map
       barrage.
     - Frontier and Deep-Range Surveillance chart a fog band along your border, with a
       manually fired sector pulse.
@@ -45,5 +45,5 @@ Date: 2026-09-07
       forces and checking that neither claimed chunks nor completed research carried
       across. What has NOT been exercised is a live session with several players
       connected at once.
-    - The base game is fully supported. The mod was tuned against Space Age on Nauvis; the
+    - The base game is fully supported. The mod was tuned against Space Age on Nauvis. The
       other planets are not tested.
