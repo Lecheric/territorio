@@ -1,0 +1,49 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.9.0
+Date: 2026-09-07
+  Features:
+    - Tile-locked expansion. The map generates normally, but you start confined to a small
+      area and must claim adjacent 32x32 chunks to grow. Leaving your territory, or building
+      outside it, is blocked.
+    - Expansion tokens are earned from research. Five repeatable Territorial Expansion
+      technologies, one per science tier, each granting tokens as it levels.
+    - Map-view Expansion tool. A chunk overlay marks what you own and what you can buy, and
+      box-select claims chunks in a single drag.
+    - A draggable widget collects every Territorio action: expansion tokens, banked artillery
+      strikes, the missile salvo, and surveillance scans.
+    - Chunk Refund, in three tiers. Sell a chunk back for its token; the tier decides how
+      much of what you built on it survives the sale.
+    - Resource Synthesis, in five tiers. Place new ore patches inside your own territory when
+      the map did not give you the ore you need. Richness and field size grow with research.
+    - Resource Prospecting charts every ore patch within 20 chunks of your territory, so
+      distant oil shows as an island in the fog instead of guesswork.
+    - Perimeter Defense, in four tiers: an automatic border wall that rebuilds itself,
+      dragon's teeth, and two densities of minefield, laid along your frontier.
+    - The Mortar, a manual-only emplacement fired with the artillery remote. Early and cheap,
+      and it wears nests down rather than deleting them.
+    - The Missile Battery, one per surface, firing an eight-missile salvo at a spot you
+      designate. It loads vanilla rockets straight off your bus.
+    - Territorial Artillery Strike, in three tiers. Killing enemies banks charges from the
+      first minute of the game; the research is what lets you spend them on an off-map
+      barrage.
+    - Frontier and Deep-Range Surveillance chart a fog band along your border, with a
+      manually fired sector pulse.
+    - Base Beautification, in three tiers, paves your territory as you claim it.
+    - A hazard-concrete band marks your border without needing ALT mode.
+    - Hand-mining is twice as fast on ground your force owns.
+    - Territory limit startup setting. Easy, Medium or Hard caps how far the expansion
+      technologies repeat, and so how much of the map you can ever own.
+  Info:
+    - First public release. The mod is feature-complete and has been played end to end on
+      Nauvis, but it is a work in progress and feedback is the point of this release.
+    - Bots and biters are deliberately NOT restricted by the border. Bots fly over locked
+      chunks and biters walk through them. This is core to the puzzle, not an oversight.
+    - Every artillery emplacement in range shares one missile salvo, so a Mortar standing
+      near the Missile Battery will eat missiles meant for it. The battery supersedes the
+      Mortar.
+    - Territory, tokens and research are held per force, confirmed in game by switching
+      forces and checking that neither claimed chunks nor completed research carried
+      across. What has NOT been exercised is a live session with several players
+      connected at once.
+    - The base game is fully supported. The mod was tuned against Space Age on Nauvis; the
+      other planets are not tested.

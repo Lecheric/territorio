@@ -1,0 +1,9 @@
+{
+  "name": "territorio",
+  "version": "0.9.0",
+  "title": "Territorio",
+  "author": "Lecheric",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1", "? space-age"],
+  "description": "Tile-locked expansion challenge. The map generates normally, but you are confined to a small starting area and must spend Tokens earned through the research tree to purchase adjacent 32x32 chunks, turning the factory into a hyper-dense, space-constrained logistics puzzle. The base game is fully supported. The mod was tuned and balanced against Space Age on Nauvis; the other planets are not tested. Requires Factorio 2.1."
+}
